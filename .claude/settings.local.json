@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(docker compose:*)",
+      "Bash(docker-compose version:*)",
+      "Bash(brew list:*)",
+      "Bash(/opt/homebrew/bin/colima status)",
+      "Bash(xargs:*)"
+    ]
+  }
+}

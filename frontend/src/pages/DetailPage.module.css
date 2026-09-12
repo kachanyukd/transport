@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.back {
+  color: #64748b;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back:hover { color: #2563eb; }
+
+.heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a2035;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.06);
+  max-width: 680px;
+}
+
+.dl {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0.6rem 1rem;
+  margin: 0;
+}
+
+.dl dt {
+  font-weight: 600;
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.dl dd {
+  margin: 0;
+  color: #1a2035;
+  font-size: 0.95rem;
+}
+
+.error { color: #dc2626; font-size: 0.88rem; margin-top: 0.5rem; }
+
+.actions {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.editBtn {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 0.55rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.editBtn:hover { background: #1d4ed8; }
+
+.dangerBtn {
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.55rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.dangerBtn:hover:not(:disabled) { background: #b91c1c; }
+.dangerBtn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.actions {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
